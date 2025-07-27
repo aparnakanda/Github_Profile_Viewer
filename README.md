@@ -9,11 +9,9 @@ A sleek and responsive React web application that allows users to search for any
 ✅ Search for GitHub users by **username**  
 ✅ View complete **profile information**:
    - Name, avatar, bio
-   - Followers & following count  
+   - Followers & following count
 ✅ Display **public repositories** with:
    - Repo name, description, stars, forks  
-✅ Click on repo to open it in a **new tab**  
-✅ Clear profile information with a single click  
 
 ---
 

@@ -1,3 +1,5 @@
+# GitHub Profile Viewer
+
 A React web app that fetches and displays GitHub user profiles and their repositories using the GitHub API.
 
 ## 🚀 Features

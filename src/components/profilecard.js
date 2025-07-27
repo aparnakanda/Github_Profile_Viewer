@@ -1,17 +1,16 @@
 import React from 'react';
 
-function ProfileCard({ data }) {
+const ProfileCard = ({ user }) => {
   return (
-    <div className="profile-card">
-      <img src={data.avatar_url} alt="avatar" />
-      <h2>{data.name || data.login}</h2>
-      <p>📍 {data.location || 'Not specified'}</p>
-      <p>📝 {data.bio || 'No bio available'}</p>
-      <p>👥 {data.followers} Followers • {data.following} Following</p>
-      <p>📁 {data.public_repos} Public Repos</p>
-      <a href={data.html_url} target="_blank" rel="noreferrer">Visit Profile</a>
+     <div className="card">
+      <img src={user.avatar_url} alt="avatar" />
+      <h2>{user.name || user.login}</h2>
+      <p>📍 {user.location || 'Not specified'}</p>
+      <p>📝 {user.bio || 'No bio available'}</p>
+      <p>👥 {user.followers} Followers • {user.following} Following</p>
+      <p>📁 {user.public_repos} Public Repos</p>
     </div>
   );
-}
+};
 
 export default ProfileCard;

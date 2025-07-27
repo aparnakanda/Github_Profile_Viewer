@@ -1,16 +1,26 @@
-# GitHub Profile Viewer
+# 🚀 GitHub Profile Viewer
 
-A React web app that fetches and displays GitHub user profiles and their repositories using the GitHub API.
+A sleek and responsive React web application that allows users to search for any GitHub profile and explore their public repositories in real time. Built using the GitHub REST API, this project is perfect for showcasing API integration and frontend skills.
 
-## 🚀 Features
+---
 
-- Search for GitHub users by username
-- View user profile information (name, avatar, bio, followers, etc.)
-- List user's public repositories
-- Clear profile info
+## ✨ Features
 
-## 🔧 Tech Stack
+✅ Search for GitHub users by **username**  
+✅ View complete **profile information**:
+   - Name, avatar, bio
+   - Followers & following count  
+✅ Display **public repositories** with:
+   - Repo name, description, stars, forks  
+✅ Click on repo to open it in a **new tab**  
+✅ Clear profile information with a single click  
 
-- React
-- GitHub REST API
-- CSS
+---
+
+## 🛠 Tech Stack
+
+| Technology            | Purpose                          |
+|------------           |------------------------------    |
+| **React**             | Frontend library for building UI |
+| **GitHub REST API**   | Fetch user and repo data         |
+| **CSS**               | Styling and layout               |

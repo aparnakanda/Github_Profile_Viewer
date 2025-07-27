@@ -40,11 +40,17 @@ function App() {
         <div className="repo-list">
           <h3>Public Repositories</h3>
           <ul>
-            {repos.map(repo => (
-              <li key={repo.id}>
-                <a href={repo.html_url} target="_blank" rel="noreferrer">{repo.name}</a>
-              </li>
+            {repos.map((repo) => (
+              <div key={repo.id} className="repo-card">
+                <h3>{repo.name}</h3>
+                <p>{repo.description ? repo.description : 'No description available.'}</p>
+                <div className="repo-stats">
+                  <span>⭐ {repo.stargazers_count}</span>
+                  <span>🍴 {repo.forks_count}</span>
+                </div>
+              </div>
             ))}
+
           </ul>
         </div>
       )}
